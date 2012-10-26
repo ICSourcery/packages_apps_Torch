@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">AOKP Torch</string>
+    <string name="app_name">Sourcery Torch</string>
 
     <color name="black">#ff000000</color>
     <color name="blue">#ff2f5375</color>

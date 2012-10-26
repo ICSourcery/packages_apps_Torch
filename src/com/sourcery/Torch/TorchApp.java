@@ -1,5 +1,5 @@
 
-package com.aokp.Torch;
+package com.sourcery.Torch;
 
 import android.app.Application;
 import android.hardware.Camera;
@@ -7,7 +7,7 @@ import android.provider.Settings;
 import android.view.SurfaceHolder;
 
 public class TorchApp extends Application {
-    public static final String TAG = "AOKPTorchApp";
+    public static final String TAG = "SOURCERYTorchApp";
 
     public CameraManager mCamManager = new CameraManager();
 

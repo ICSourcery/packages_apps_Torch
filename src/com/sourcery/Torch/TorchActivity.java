@@ -1,5 +1,5 @@
 
-package com.aokp.Torch;
+package com.sourcery.Torch;
 
 import android.os.Bundle;
 import android.view.SurfaceHolder;
@@ -7,10 +7,10 @@ import android.view.SurfaceView;
 import android.app.Activity;
 
 public class TorchActivity extends Activity implements SurfaceHolder.Callback {
-    public static final String TAG = "AOKPTorchAct";
-    public static final String TORCH_ON = "com.aokp.torch.INTENT_TORCH_ON";
-    public static final String TORCH_OFF = "com.aokp.torch.INTENT_TORCH_OFF";
-    public static final String TORCH_TOGGLE = "com.aokp.torch.INTENT_TORCH_TOGGLE";
+    public static final String TAG = "SourceryTorchAct";
+    public static final String TORCH_ON = "com.sourcery.torch.INTENT_TORCH_ON";
+    public static final String TORCH_OFF = "com.sourcery.torch.INTENT_TORCH_OFF";
+    public static final String TORCH_TOGGLE = "com.sourcery.torch.INTENT_TORCH_TOGGLE";
 
     private TorchApp mApplication;
     private SurfaceView mSurfaceView;

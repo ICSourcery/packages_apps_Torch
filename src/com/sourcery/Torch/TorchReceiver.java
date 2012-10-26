@@ -1,5 +1,5 @@
 
-package com.aokp.Torch;
+package com.sourcery.Torch;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

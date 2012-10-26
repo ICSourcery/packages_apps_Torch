@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.aokp.Torch"
+    package="com.sourcery.Torch"
     android:versionCode="100"
     android:versionName="1.0.0" >
 
@@ -32,9 +32,9 @@
 
         <receiver android:name=".TorchReceiver" >
             <intent-filter android:priority="1000" >
-                <action android:name="com.aokp.torch.INTENT_TORCH_ON" />
-                <action android:name="com.aokp.torch.INTENT_TORCH_OFF" />
-                <action android:name="com.aokp.torch.INTENT_TORCH_TOGGLE" />
+                <action android:name="com.sourcery.torch.INTENT_TORCH_ON" />
+                <action android:name="com.sourcery.torch.INTENT_TORCH_OFF" />
+                <action android:name="com.sourcery.torch.INTENT_TORCH_TOGGLE" />
             </intent-filter>
         </receiver>
     </application>
